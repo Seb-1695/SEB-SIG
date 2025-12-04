@@ -1,0 +1,99 @@
+ 	si frente-bloqueado y izquierda-libre entonces inicio
+    		gira-izquierda;
+    		avanza;
+    		gira-izquierda;
+    		gira-izquierda;
+    		gira-izquierda;
+    		avanza;
+    		gira-izquierda;
+    		gira-izquierda;
+    		gira-izquierda;
+    		avanza;
+            gira-izquierda;
+        fin
+        sino inicio
+        	si frente-bloqueado y izquierda-bloqueada y derecha-libre entonces inicio
+           	gira-izquierda;
+    		gira-izquierda;
+    		gira-izquierda;
+    		avanza;
+            gira-izquierda;
+        	avanza;
+            gira-izquierda;
+     	 	avanza;
+       		gira-izquierda;
+        	gira-izquierda;
+     	    gira-izquierda;
+            fin;
+    	fin;
+        apagate;
+    termina-ejecución
+finalizar-programa
+
+
+________________________________________________________________
+
+iniciar-programa
+    inicia-ejecucion
+    	repetir 15 veces
+    	coge-zumbador;
+        deja-zumbador;
+        gira-izquierda;
+        avanza;
+        avanza;
+        deja-zumbador;
+        deja-zumbador;
+        avanza;
+        deja-zumbador;
+        avanza;
+        deja-zumbador;
+        avanza;
+        deja-zumbador;
+        avanza;
+        deja-zumbador;
+        avanza;
+        deja-zumbador;
+        avanza;
+        deja-zumbador;
+        avanza;
+        deja-zumbador;
+        avanza;
+        deja-zumbador;
+        avanza;
+        deja-zumbador;
+        avanza;
+        deja-zumbador;
+        avanza;
+        deja-zumbador;
+        avanza;
+        deja-zumbador;
+        avanza;
+        deja-zumbador;
+        apagate;
+    termina-ejecucion
+finalizar-programa
+
+‑_______________________________________________________________________
+
+iniciar-programa
+    inicia-ejecucion
+    	mientras no-junto-a-zumbador hacer inicio
+        	si algun-zumbador-en-la-mochila entonces inicio
+            	deja-zumbador;
+           	fin;
+          	si frente-libre entonces inicio
+    			avanza;
+            fin;
+            si frente-bloqueado y derecha-libre entonces inicio
+            	gira-izquierda;
+                gira-izquierda;
+                gira-izquierda;
+            fin;
+            si frente-bloqueado y izquierda-libre entonces inicio
+            	gira-izquierda;
+            fin;
+        fin;
+        apagate;
+    termina-ejecución
+finalizar-programa
+   
