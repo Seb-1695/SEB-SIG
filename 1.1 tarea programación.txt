@@ -1,0 +1,71 @@
+        
+            	mientras frente-libre hacer inicio
+    			avanza;
+        fin;
+        si frente-bloqueado y izquierda-libre entonces inicio
+        	gira-izquierda;            
+        fin;
+        mientras frente-libre hacer inicio
+    			avanza;
+        fin;
+         si frente-bloqueado y derecha-libre entonces inicio
+        	gira-izquierda;
+            gira-izquierda;
+            gira-izquierda;
+        fin;
+        si frente-bloqueado y izquierda-libre entonces inicio
+        	gira-izquierda;            
+        fin;
+        mientras frente-libre hacer inicio
+    		avanza;
+        fin;
+        si frente-bloqueado y izquierda-libre entonces inicio
+        	gira-izquierda;
+        fin;
+        mientras frente-libre hacer inicio
+        	avanza;
+        	gira-izquierda;
+        mientras frente-libre hacer inicio
+        	avanza;
+        fin;
+        si frente-bloqueado y derecha-libre entonces inicio
+        	gira-izquierda;
+            gira-izquierda;
+            gira-izquierda;
+        fin;
+        si frente-libre entonces inicio
+        	avanza;
+        	gira-izquierda;
+            gira-izquierda;
+            gira-izquierda;
+        fin;
+        mientras frente-libre hacer inicio
+        	avanza;
+        fin;
+        si frente-bloqueado y junto-a-zumbador entonces inicio
+        	coge-zumbador;
+        fin;
+        si algun-zumbador-en-la-mochila y frente-bloqueado entonces inicio
+        	gira-izquierda;
+            gira-izquierda;
+        fin;
+        si frente-libre y izquierda-libre y derecha-bloqueada entonces inicio
+        	deja-zumbador;
+        fin;
+        mientras frente-libre hacer inicio
+        	avanza;
+        fin;
+         si algun-zumbador-en-la-mochila y frente-bloqueado entonces inicio
+        	gira-izquierda;
+            gira-izquierda;
+            gira-izquierda;
+        fin;
+        si frente-bloqueado y derecha-libre entonces inicio
+        	deja-zumbador;
+        fin;
+        fin;
+        si izquierda-libre entonces inicio
+        	gira-izquierda;
+        	avanza;
+            gira-izquierda;
+        fin;
