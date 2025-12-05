@@ -1,0 +1,27 @@
+iniciar-programa
+    inicia-ejecucion
+    	mientras frente-libre hacer inicio
+    			avanza;
+        si frente-bloqueado y derecha-libre entonces inicio
+        	gira-izquierda;
+            gira-izquierda;
+            gira-izquierda;
+        fin;
+        si frente-bloqueado y izquierda-libre entonces inicio
+        	gira-izquierda;            
+        fin;
+        mientras frente-libre hacer inicio
+    			avanza;
+        fin;
+         si frente-bloqueado y derecha-libre entonces inicio
+        	gira-izquierda;
+            gira-izquierda;
+            gira-izquierda;
+        fin;
+        si frente-bloqueado y izquierda-libre entonces inicio
+        	gira-izquierda;            
+        fin;
+        fin;
+        apagate;
+    termina-ejecución
+finalizar-programa
